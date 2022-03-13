@@ -65,6 +65,10 @@
     <Compile Include="Migrations\202203110301182_subscribemail_added_db.designer.cs">
       <DependentUpon>202203110301182_subscribemail_added_db.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203131337285_comment_date_added.cs" />
+    <Compile Include="Migrations\202203131337285_comment_date_added.designer.cs">
+      <DependentUpon>202203131337285_comment_date_added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -75,6 +79,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202203110301182_subscribemail_added_db.resx">
       <DependentUpon>202203110301182_subscribemail_added_db.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203131337285_comment_date_added.resx">
+      <DependentUpon>202203131337285_comment_date_added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
