@@ -69,6 +69,10 @@
     <Compile Include="Migrations\202203131337285_comment_date_added.designer.cs">
       <DependentUpon>202203131337285_comment_date_added.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203131803516_category_model_updated.cs" />
+    <Compile Include="Migrations\202203131803516_category_model_updated.designer.cs">
+      <DependentUpon>202203131803516_category_model_updated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -82,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203131337285_comment_date_added.resx">
       <DependentUpon>202203131337285_comment_date_added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203131803516_category_model_updated.resx">
+      <DependentUpon>202203131803516_category_model_updated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
